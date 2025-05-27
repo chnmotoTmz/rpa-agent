@@ -1,0 +1,8 @@
+# KEEPダイアログ自動処理システム 依存関係
+# 睡眠不足解消のための必須パッケージ
+
+opencv-python==4.9.0.80
+pyautogui==0.9.54
+numpy==1.24.3
+Pillow==10.0.0
+python-dateutil==2.8.2
