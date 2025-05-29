@@ -1,0 +1,356 @@
+2025-05-29 10:14:42,390 - INFO - [INIT] デュアルエージェント自動処理システム初期化完了
+2025-05-29 10:14:42,390 - INFO - [INFO] 監視対象: KEEP + Redmine + Continue
+2025-05-29 10:14:42,391 - INFO - 🌙 24時間デュアルエージェント監視開始
+2025-05-29 10:14:42,391 - INFO - 💤 KEEP + Redmine + Continue 全て自動処理します
+2025-05-29 10:14:42,391 - INFO - 🛌 お疲れ様でした、ゆっくりお休みください
+2025-05-29 10:14:42,392 - INFO - [OK] 画像読み込み成功: image\Keep.png
+2025-05-29 10:14:42,392 - INFO - [OK] 画像読み込み成功: image\exec.png
+2025-05-29 10:14:42,394 - INFO - [OK] 画像読み込み成功: image\redmine-agent.png
+2025-05-29 10:14:42,395 - INFO - [OK] 画像読み込み成功: image\continue.png
+2025-05-29 10:14:42,395 - INFO - 🚀 デュアルエージェント監視開始
+2025-05-29 10:14:42,396 - INFO - 😴 完全自動化 - あなたは安心して眠ってください！
+2025-05-29 10:14:42,396 - INFO - 🎯 監視対象: KEEP + Redmine + Continue
+2025-05-29 10:16:43,905 - WARNING - ⚠️ 右側RPA-Agent: KEEPダイアログ検出！ (信頼度: 0.988)
+2025-05-29 10:16:44,139 - INFO - [CLICK] KEEPクリック実行: (1797, 752)
+2025-05-29 10:16:44,221 - INFO - ✅ KEEP自動処理完了
+2025-05-29 10:16:45,533 - INFO - 🔺 実行ボタン検出！ (信頼度: 0.862)
+2025-05-29 10:16:45,754 - INFO - [CLICK] EXECクリック実行: (1873, 974)
+2025-05-29 10:16:45,759 - INFO - ✅ 実行ボタン自動クリック完了
+2025-05-29 10:20:48,671 - WARNING - ⚠️ 右側RPA-Agent: KEEPダイアログ検出！ (信頼度: 0.992)
+2025-05-29 10:20:48,781 - INFO - [CLICK] KEEPクリック実行: (1797, 752)
+2025-05-29 10:20:48,782 - INFO - ✅ KEEP自動処理完了
+2025-05-29 10:22:50,079 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 10:24:50,083 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 10:26:50,084 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 10:28:50,084 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 10:30:50,084 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 10:32:50,084 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 10:34:50,084 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 10:36:50,085 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 10:38:50,085 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 10:40:50,085 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 10:42:50,085 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 10:44:50,085 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 10:46:50,086 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 10:48:50,086 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 10:50:50,086 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 10:52:50,086 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 10:54:50,086 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 10:56:50,087 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 10:58:50,087 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 11:00:50,087 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 11:02:50,088 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 11:04:50,087 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 11:06:50,088 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 11:08:50,088 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 11:10:50,088 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 11:12:50,089 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 11:14:50,089 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 11:16:50,090 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 11:18:50,090 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 11:20:50,090 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 11:22:50,090 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 11:24:50,090 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 11:26:50,090 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 11:28:50,091 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 11:30:50,091 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 11:32:50,091 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 11:34:50,091 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 11:36:50,091 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 11:38:50,467 - WARNING - ⚠️ 右側RPA-Agent: KEEPダイアログ検出！ (信頼度: 0.988)
+2025-05-29 11:38:50,608 - INFO - [CLICK] KEEPクリック実行: (1797, 752)
+2025-05-29 11:38:50,649 - INFO - ✅ KEEP自動処理完了
+2025-05-29 11:38:51,525 - INFO - 🔺 実行ボタン検出！ (信頼度: 0.862)
+2025-05-29 11:38:51,628 - INFO - [CLICK] EXECクリック実行: (1873, 974)
+2025-05-29 11:38:51,629 - INFO - ✅ 実行ボタン自動クリック完了
+2025-05-29 11:40:52,253 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 11:42:52,527 - WARNING - ⚠️ 右側RPA-Agent: KEEPダイアログ検出！ (信頼度: 0.992)
+2025-05-29 11:42:52,659 - INFO - [CLICK] KEEPクリック実行: (1797, 752)
+2025-05-29 11:42:52,660 - INFO - ✅ KEEP自動処理完了
+2025-05-29 11:42:54,154 - WARNING - ▶️ Continueボタン検出！ (信頼度: 0.807)
+2025-05-29 11:42:54,256 - INFO - [CLICK] CONTINUEクリック実行: (1083, 590)
+2025-05-29 11:42:54,257 - INFO - ✅ Continue自動クリック完了
+2025-05-29 11:44:54,256 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 11:46:54,257 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 11:48:54,521 - WARNING - ⚠️ 右側RPA-Agent: KEEPダイアログ検出！ (信頼度: 0.988)
+2025-05-29 11:48:54,653 - INFO - [CLICK] KEEPクリック実行: (1797, 752)
+2025-05-29 11:48:54,659 - INFO - ✅ KEEP自動処理完了
+2025-05-29 11:48:55,474 - INFO - 🔺 実行ボタン検出！ (信頼度: 0.862)
+2025-05-29 11:48:55,576 - INFO - [CLICK] EXECクリック実行: (1873, 974)
+2025-05-29 11:48:55,577 - INFO - ✅ 実行ボタン自動クリック完了
+2025-05-29 11:50:56,133 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 11:52:56,134 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 11:54:56,134 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 11:56:56,134 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 11:58:56,134 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 12:00:56,135 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 12:02:56,135 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 12:04:56,135 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 12:06:56,136 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 12:08:56,136 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 12:10:56,136 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 12:12:56,136 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 12:14:56,136 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 12:16:56,136 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 12:18:56,136 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 12:20:56,137 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 12:22:56,137 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 12:24:56,137 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 12:26:56,724 - WARNING - ⚠️ 右側RPA-Agent: KEEPダイアログ検出！ (信頼度: 0.992)
+2025-05-29 12:26:56,870 - INFO - [CLICK] KEEPクリック実行: (1797, 752)
+2025-05-29 12:26:56,952 - INFO - ✅ KEEP自動処理完了
+2025-05-29 12:27:00,140 - WARNING - ▶️ Continueボタン検出！ (信頼度: 0.820)
+2025-05-29 12:27:00,299 - INFO - [CLICK] CONTINUEクリック実行: (1083, 394)
+2025-05-29 12:27:00,307 - INFO - ✅ Continue自動クリック完了
+2025-05-29 12:29:00,321 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 12:31:00,323 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 12:33:00,324 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 12:35:00,324 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 12:37:00,324 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 12:39:00,324 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 12:41:00,325 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 12:43:00,611 - WARNING - ⚠️ 右側RPA-Agent: KEEPダイアログ検出！ (信頼度: 0.988)
+2025-05-29 12:43:00,861 - INFO - [CLICK] KEEPクリック実行: (1797, 752)
+2025-05-29 12:43:00,900 - INFO - ✅ KEEP自動処理完了
+2025-05-29 12:43:02,310 - INFO - 🔺 実行ボタン検出！ (信頼度: 0.862)
+2025-05-29 12:43:02,448 - INFO - [CLICK] EXECクリック実行: (1873, 974)
+2025-05-29 12:43:02,568 - INFO - ✅ 実行ボタン自動クリック完了
+2025-05-29 12:43:03,373 - WARNING - ▶️ Continueボタン検出！ (信頼度: 1.000)
+2025-05-29 12:43:03,475 - INFO - [CLICK] CONTINUEクリック実行: (1378, 663)
+2025-05-29 12:43:03,475 - INFO - ✅ Continue自動クリック完了
+2025-05-29 12:45:03,776 - WARNING - ⚠️ 右側RPA-Agent: KEEPダイアログ検出！ (信頼度: 0.992)
+2025-05-29 12:45:03,996 - INFO - [CLICK] KEEPクリック実行: (1797, 752)
+2025-05-29 12:45:04,031 - INFO - ✅ KEEP自動処理完了
+2025-05-29 12:51:08,011 - WARNING - ⚠️ 右側RPA-Agent: KEEPダイアログ検出！ (信頼度: 0.905)
+2025-05-29 12:51:08,120 - INFO - [CLICK] KEEPクリック実行: (1797, 752)
+2025-05-29 12:51:08,122 - INFO - ✅ KEEP自動処理完了
+2025-05-29 12:51:08,942 - INFO - 🔺 実行ボタン検出！ (信頼度: 0.862)
+2025-05-29 12:51:09,044 - INFO - [CLICK] EXECクリック実行: (1873, 974)
+2025-05-29 12:51:09,044 - INFO - ✅ 実行ボタン自動クリック完了
+2025-05-29 14:11:33,572 - WARNING - ⚠️ 右側RPA-Agent: KEEPダイアログ検出！ (信頼度: 0.988)
+2025-05-29 14:11:33,684 - INFO - [CLICK] KEEPクリック実行: (1797, 752)
+2025-05-29 14:11:33,688 - INFO - ✅ KEEP自動処理完了
+2025-05-29 14:11:34,497 - INFO - 🔺 実行ボタン検出！ (信頼度: 0.862)
+2025-05-29 14:11:34,599 - INFO - [CLICK] EXECクリック実行: (1873, 974)
+2025-05-29 14:11:34,599 - INFO - ✅ 実行ボタン自動クリック完了
+2025-05-29 14:15:35,703 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 14:17:35,704 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 14:19:35,704 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 14:21:35,705 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 14:23:35,709 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 14:25:36,035 - WARNING - ⚠️ 右側RPA-Agent: KEEPダイアログ検出！ (信頼度: 0.992)
+2025-05-29 14:25:36,148 - INFO - [CLICK] KEEPクリック実行: (1797, 752)
+2025-05-29 14:25:36,148 - INFO - ✅ KEEP自動処理完了
+2025-05-29 14:25:37,461 - WARNING - ▶️ Continueボタン検出！ (信頼度: 0.820)
+2025-05-29 14:25:37,563 - INFO - [CLICK] CONTINUEクリック実行: (1083, 394)
+2025-05-29 14:25:37,563 - INFO - ✅ Continue自動クリック完了
+2025-05-29 14:27:37,563 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 14:29:37,564 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 14:31:37,783 - WARNING - ⚠️ 右側RPA-Agent: KEEPダイアログ検出！ (信頼度: 0.987)
+2025-05-29 14:31:37,892 - INFO - [CLICK] KEEPクリック実行: (1797, 752)
+2025-05-29 14:31:37,892 - INFO - ✅ KEEP自動処理完了
+2025-05-29 14:33:39,052 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 14:35:39,052 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 14:37:39,556 - WARNING - ⚠️ 右側RPA-Agent: KEEPダイアログ検出！ (信頼度: 0.987)
+2025-05-29 14:37:39,745 - INFO - [CLICK] KEEPクリック実行: (1797, 752)
+2025-05-29 14:37:39,772 - INFO - ✅ KEEP自動処理完了
+2025-05-29 14:37:41,389 - INFO - 🔺 実行ボタン検出！ (信頼度: 0.862)
+2025-05-29 14:37:41,544 - INFO - [CLICK] EXECクリック実行: (1873, 974)
+2025-05-29 14:37:41,559 - INFO - ✅ 実行ボタン自動クリック完了
+2025-05-29 14:39:42,907 - WARNING - ⚠️ 右側RPA-Agent: KEEPダイアログ検出！ (信頼度: 0.987)
+2025-05-29 14:39:43,015 - INFO - [CLICK] KEEPクリック実行: (1797, 752)
+2025-05-29 14:39:43,027 - INFO - ✅ KEEP自動処理完了
+2025-05-29 14:39:43,869 - INFO - 🔺 実行ボタン検出！ (信頼度: 0.862)
+2025-05-29 14:39:43,972 - INFO - [CLICK] EXECクリック実行: (1873, 974)
+2025-05-29 14:39:43,973 - INFO - ✅ 実行ボタン自動クリック完了
+2025-05-29 15:07:54,207 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 15:09:54,207 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 15:11:54,422 - WARNING - ⚠️ 右側RPA-Agent: KEEPダイアログ検出！ (信頼度: 0.999)
+2025-05-29 15:11:54,538 - INFO - [CLICK] KEEPクリック実行: (1797, 752)
+2025-05-29 15:11:54,543 - INFO - ✅ KEEP自動処理完了
+2025-05-29 15:11:55,316 - INFO - 🔺 実行ボタン検出！ (信頼度: 0.862)
+2025-05-29 15:11:55,419 - INFO - [CLICK] EXECクリック実行: (1873, 974)
+2025-05-29 15:11:55,419 - INFO - ✅ 実行ボタン自動クリック完了
+2025-05-29 16:08:12,708 - INFO - 📊 スキャン100回完了 | 稼働時間: 5:53:30.317617
+2025-05-29 16:08:12,709 - INFO -    KEEP: 15検出/15クリック
+2025-05-29 16:08:12,709 - INFO -    Redmine: 0検出/0クリック
+2025-05-29 16:08:12,710 - INFO -    Continue: 4検出/4クリック
+2025-05-29 17:14:31,710 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 17:16:31,711 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 17:18:31,711 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 17:20:31,711 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 17:22:31,711 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 17:24:31,712 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 17:26:31,712 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 17:28:31,712 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 17:30:31,713 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 17:32:31,713 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 17:34:31,713 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 17:36:31,713 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 17:38:31,714 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 17:40:31,714 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 17:42:31,715 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 17:54:34,998 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 17:56:34,999 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 17:58:34,999 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:00:35,000 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:02:35,000 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:04:35,000 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:06:35,001 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:08:35,001 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:10:35,001 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:12:35,001 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:14:35,001 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:16:35,001 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:18:35,002 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:20:35,002 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:22:35,002 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:24:35,002 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:26:35,003 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:28:35,003 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:30:35,004 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:32:35,004 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:34:35,004 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:36:35,004 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:38:35,004 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:40:35,005 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:46:36,290 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:48:36,291 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:50:36,291 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:52:36,291 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:54:36,291 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:56:36,291 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 18:58:36,291 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:00:36,291 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:02:36,292 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:04:36,292 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:06:36,292 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:08:36,293 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:10:36,293 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:12:36,293 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:14:36,293 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:16:36,294 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:18:36,294 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:20:36,294 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:22:36,294 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:24:36,294 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:26:36,294 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:28:36,294 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:30:36,294 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:32:36,295 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:34:36,295 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:36:36,295 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:38:36,295 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:40:36,296 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:42:36,296 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:44:36,296 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:46:36,296 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:48:36,296 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:50:36,296 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:52:36,297 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:54:36,297 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:56:36,298 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 19:58:36,298 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:00:36,299 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:02:36,299 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:04:36,299 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:06:36,299 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:08:36,299 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:10:36,300 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:12:36,300 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:14:36,300 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:16:36,301 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:18:36,301 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:20:36,302 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:22:36,302 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:24:36,302 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:26:36,303 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:28:36,303 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:30:36,303 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:32:36,304 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:34:36,304 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:36:36,305 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:38:36,305 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:40:36,305 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:42:36,306 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:44:36,306 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:46:36,306 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:48:36,306 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:50:36,306 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:52:36,306 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:54:36,307 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:56:36,307 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 20:58:36,307 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:00:36,307 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:02:36,308 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:04:36,308 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:06:36,308 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:08:36,308 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:10:36,309 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:12:36,309 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:14:36,309 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:16:36,310 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:18:36,310 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:20:36,310 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:22:36,311 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:24:36,311 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:26:36,312 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:28:36,312 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:30:36,313 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:32:36,317 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:34:36,320 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:36:36,321 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:38:36,321 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:40:36,321 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:42:36,322 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:44:36,322 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:46:36,322 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:48:36,323 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:50:36,323 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:52:36,324 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:54:36,324 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:56:36,325 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 21:58:36,325 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 22:00:36,325 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 22:02:36,326 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 22:04:36,327 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 22:06:36,327 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 22:08:36,327 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 22:10:36,627 - WARNING - ⚠️ 右側RPA-Agent: KEEPダイアログ検出！ (信頼度: 0.987)
+2025-05-29 22:10:36,753 - INFO - [CLICK] KEEPクリック実行: (1802, 744)
+2025-05-29 22:10:36,756 - INFO - ✅ KEEP自動処理完了
+2025-05-29 22:10:37,563 - INFO - 🔺 実行ボタン検出！ (信頼度: 0.862)
+2025-05-29 22:10:37,669 - INFO - [CLICK] EXECクリック実行: (1878, 966)
+2025-05-29 22:10:37,674 - INFO - ✅ 実行ボタン自動クリック完了
+2025-05-29 22:14:39,443 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 22:18:40,184 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 22:20:40,185 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 22:22:40,185 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 22:24:40,186 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 22:26:40,187 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 22:28:40,187 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 22:30:40,187 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 22:32:40,188 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 22:34:40,188 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 22:36:40,189 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 22:38:40,189 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 22:40:40,189 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 22:42:40,189 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 22:44:40,190 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 22:46:40,190 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 22:48:40,191 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 22:50:40,191 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 22:52:40,192 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 22:54:40,192 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 22:56:40,193 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 23:06:43,059 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 23:08:43,060 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 23:10:43,060 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 23:12:43,060 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 23:14:43,060 - ERROR - 画面キャプチャエラー: screen grab failed
+2025-05-29 23:18:43,943 - WARNING - ⚠️ 右側RPA-Agent: KEEPダイアログ検出！ (信頼度: 0.987)
+2025-05-29 23:18:44,061 - INFO - [CLICK] KEEPクリック実行: (1802, 744)
+2025-05-29 23:18:44,069 - INFO - ✅ KEEP自動処理完了
+2025-05-29 23:18:44,859 - INFO - 🔺 実行ボタン検出！ (信頼度: 0.862)
+2025-05-29 23:18:44,963 - INFO - [CLICK] EXECクリック実行: (1878, 966)
+2025-05-29 23:18:44,963 - INFO - ✅ 実行ボタン自動クリック完了

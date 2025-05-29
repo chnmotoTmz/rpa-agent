@@ -28,14 +28,16 @@ class DualAgentAutomation:
         # ログディレクトリ
         self.log_dir = Path("logs")
         self.log_dir.mkdir(exist_ok=True)
-          # ログ設定
+        
+        # ログ設定 - UTF-8強制
+        log_file = self.log_dir / 'dual_automation.log'
+        file_handler = logging.FileHandler(log_file, encoding='utf-8')
+        console_handler = logging.StreamHandler()
+        
         logging.basicConfig(
             level=logging.INFO,
             format='%(asctime)s - %(levelname)s - %(message)s',
-            handlers=[
-                logging.FileHandler(self.log_dir / 'dual_automation.log'),
-                logging.StreamHandler()
-            ]
+            handlers=[file_handler, console_handler]
         )
         self.logger = logging.getLogger(__name__)
         
@@ -52,24 +54,22 @@ class DualAgentAutomation:
             "continue_clicks": 0,
             "total_scans": 0
         }
-        
-        # 画像マッチング設定
+          # 画像マッチング設定
         self.confidence_threshold = 0.8
-        self.scan_interval = 1.5  # 1.5秒間隔でスキャン（高速化）
-        
-        self.logger.info("🤖 デュアルエージェント自動処理システム初期化完了")
-        self.logger.info("📋 監視対象: KEEP + Redmine + Continue")
+        self.scan_interval = 120  # 2分間隔でスキャン（負荷軽減）
+        self.logger.info("[INIT] デュアルエージェント自動処理システム初期化完了")
+        self.logger.info("[INFO] 監視対象: KEEP + Redmine + Continue")
         
     def load_template_image(self, image_path):
         """テンプレート画像の読み込み"""
         try:
             template = cv2.imread(str(image_path), cv2.IMREAD_COLOR)
             if template is None:
-                raise FileNotFoundError(f"画像ファイルが見つかりません: {image_path}")
-            self.logger.info(f"✅ 画像読み込み成功: {image_path}")
+                raise FileNotFoundError(f"画像ファイルが見つかりません: {image_path}")            
+            self.logger.info(f"[OK] 画像読み込み成功: {image_path}")
             return template
         except Exception as e:
-            self.logger.error(f"❌ 画像読み込みエラー: {e}")
+            self.logger.error(f"[ERROR] 画像読み込みエラー: {e}")
             return None
     
     def capture_screen(self):
@@ -107,7 +107,7 @@ class DualAgentAutomation:
         """指定位置をクリック"""
         try:
             pyautogui.click(x, y)
-            self.logger.info(f"🖱️ {agent_type}クリック実行: ({x}, {y})")
+            self.logger.info(f"[CLICK] {agent_type}クリック実行: ({x}, {y})")
               # 統計更新
             if agent_type == "KEEP":
                 self.stats["keep_clicks"] += 1
@@ -120,7 +120,7 @@ class DualAgentAutomation:
                 
             return True
         except Exception as e:
-            self.logger.error(f"クリックエラー: {e}")
+            self.logger.error(f"[ERROR] クリックエラー: {e}")
             return False
     
     def scan_and_process(self):
@@ -133,7 +133,7 @@ class DualAgentAutomation:
         if keep_template is None or exec_template is None or redmine_template is None or continue_template is None:
             self.logger.error("❌ テンプレート画像の読み込みに失敗しました")
             return
-          self.logger.info("🚀 デュアルエージェント監視開始")
+        self.logger.info("🚀 デュアルエージェント監視開始")
         self.logger.info("😴 完全自動化 - あなたは安心して眠ってください！")
         self.logger.info("🎯 監視対象: KEEP + Redmine + Continue")
         
@@ -218,7 +218,7 @@ class DualAgentAutomation:
         # バックグラウンドで監視実行
         self.monitor_thread = threading.Thread(target=self.scan_and_process, daemon=True)
         self.monitor_thread.start()
-          self.logger.info("🌙 24時間デュアルエージェント監視開始")
+        self.logger.info("🌙 24時間デュアルエージェント監視開始")
         self.logger.info("💤 KEEP + Redmine + Continue 全て自動処理します")
         self.logger.info("🛌 お疲れ様でした、ゆっくりお休みください")
     
@@ -233,7 +233,8 @@ class DualAgentAutomation:
         self.logger.info("=" * 60)
         self.logger.info("📊 デュアルエージェント自動処理 最終統計")
         self.logger.info(f"⏰ 稼働時間: {duration}")
-        self.logger.info(f"🔍 総スキャン回数: {self.stats['total_scans']}")        self.logger.info(f"🛡️ KEEP検出/クリック: {self.stats['keep_detections']}/{self.stats['keep_clicks']}")
+        self.logger.info(f"🔍 総スキャン回数: {self.stats['total_scans']}")        
+        self.logger.info(f"🛡️ KEEP検出/クリック: {self.stats['keep_detections']}/{self.stats['keep_clicks']}")
         self.logger.info(f"🔺 Redmine検出/クリック: {self.stats['redmine_detections']}/{self.stats['redmine_clicks']}")
         self.logger.info(f"▶️ Continue検出/クリック: {self.stats['continue_detections']}/{self.stats['continue_clicks']}")
         self.logger.info(f"📋 実行ボタンクリック: {self.stats['exec_clicks']}")
@@ -253,7 +254,7 @@ def main():
     try:
         # デュアル自動化システム初期化
         automation = DualAgentAutomation()
-          print("🤖🔺▶️ トリプルエージェント自動処理システム")
+        print("🤖🔺▶️ トリプルエージェント自動処理システム")
         print("KEEP + Redmine + Continue 完全監視で絶対安眠")
         print("=" * 50)
         print("あなた: 右側RPA-Agent")
@@ -267,7 +268,7 @@ def main():
         
         while True:
             choice = input("\n選択してください (1/2/3/q): ").strip()
-              if choice == "1":
+            if choice == "1":
                 automation.start_monitoring()
                 print("✅ トリプル監視開始！KEEP + Redmine + Continue 全て自動処理します！")
                 

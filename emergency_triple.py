@@ -27,10 +27,10 @@ def main():
     logger.info("監視対象: KEEP + Redmine + Continue")
     
     # 画像パス
-    keep_path = "image/Keep.png"
-    exec_path = "image/exec.png" 
-    redmine_path = "image/redmine-agent.png"
-    continue_path = "image/continue.png"
+    keep_path = "image/Keep_new.png"
+    exec_path = "image/exec_new.png" 
+    redmine_path = "image/redmine-agent_new.png"
+    continue_path = "image/continue_new.png"
     
     # 統計
     stats = {"scans": 0, "clicks": 0}
@@ -98,12 +98,11 @@ def main():
                 pyautogui.click(center_x, center_y)
                 logger.warning(f"📋 実行ボタン検出・クリック: ({center_x}, {center_y})")
                 stats["clicks"] += 1
-            
-            # 統計ログ
+              # 統計ログ
             if stats["scans"] % 100 == 0:
                 logger.info(f"📊 {stats['scans']}回スキャン完了 | {stats['clicks']}回クリック実行")
             
-            time.sleep(1.5)
+            time.sleep(120)  # 2分間隔でスキャン（負荷軽減）
             
     except KeyboardInterrupt:
         logger.info("⏹️ 手動停止")
